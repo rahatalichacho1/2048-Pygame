@@ -1,0 +1,28 @@
+
+2048-Pygame: A Python Implementation of the 2048 Game
+
+This project is a recreation of the popular sliding block puzzle game, 2048, implemented in Python using the Pygame library. The objective of the game is to slide numbered tiles on a 4x4 grid to 
+combine them into a tile with the number 2048. Players can move tiles in four directions: up, down, left, and right. When two tiles with the same number collide,
+they merge into a tile with their combined value.
+
+Features
+Smooth Animations: The game features smooth tile movements and merging animations.
+Random Tile Generation: After each move, a new tile (2 or 4) appears at a random empty position.
+Game Over Detection: The game automatically detects when no more moves are possible.
+Attractive UI: The game has a visually appealing interface with different colors for different tile values.
+
+How to Run
+Ensure you have Python and Pygame installed.
+Clone the repository:
+bash 
+git clone https://github.com/rahatalichacho1/2048-Pygame.git
+
+
+Navigate to the project directory:
+bash
+Copy code
+cd 2048-Pygame
+Install Pygame if not already installed:
+bash
+Copy code
+pip install pygame
